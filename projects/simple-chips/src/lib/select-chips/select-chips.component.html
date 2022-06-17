@@ -1,0 +1,9 @@
+<select (change)="onSelectChange()" [disabled]="disabled" [(ngModel)]="selectedItem">
+    <option value="{{sourceItem[value]}}"
+        *ngFor="let sourceItem of source"
+        [title]="sourceItem[display]">
+        {{sourceItem[display]}}</option>
+    </select>
+<p *ngIf="items && items.length > 0" class="chips-container">
+    <span class="chips-item" *ngFor="let i of items" (click)="onClick(i)">{{i.display}}</span>
+</p>

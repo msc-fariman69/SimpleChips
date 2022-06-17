@@ -1,0 +1,21 @@
+.chips-container {
+    margin-top: 15px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.chips-container span.chips-item {
+    background: #3e92cf;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-top: 3px;
+    transition: all ease-in-out 0.5s;
+}
+
+.chips-container span.chips-item:hover {
+    background: red;
+    color: rgb(234, 231, 231);
+    cursor: pointer;
+}
