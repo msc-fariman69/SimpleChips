@@ -1,27 +1,19 @@
-# BinaryControls
+# SimpleChips
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
+A simple angular library includes two chips controls
 
-## Development server
+## Input chips
+- You can type a string value and press enter to add item to chips. you can even add more than one items by spliting them using space.
+- The control gives you items as string array.
+- The duplicate item won't be added by the defined policy.
+- You can delete items by hovering and clicking on them.
+- You can connect the control with form control to be as a control in a form group with all form control features.
+<img src="https://raw.githubusercontent.com/msc-fariman69/SimpleChips/master/assets/input-chips.png" />
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Select chips
+- You can choose between provided source items and add item to chips.
+- You have to specify display and value for provided source and the control gives you a ChipsItem array includes all selected items.
+- The duplicate item won't be added by the defined policy.
+- You can delete items by hovering and clicking on them.
+- You can connect the control with form control to be as a control in a form group with all form control features.
+<img src="https://raw.githubusercontent.com/msc-fariman69/SimpleChips/master/assets/select-chips.png" />
