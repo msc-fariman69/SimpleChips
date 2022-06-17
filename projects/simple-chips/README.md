@@ -1,24 +1,19 @@
 # SimpleChips
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.9.
+A simple angular library includes two chips controls
 
-## Code scaffolding
+## Input chips
+- You can type a string value and press enter to add item to chips. you can even add more than one items by spliting them using space.
+- The control gives you items as string array.
+- The duplicate item won't be added by the defined policy.
+- You can delete items by hovering and clicking on them.
+- You can connect the control with form control to be as a control in a form group with all form control features.
+<img src="https://raw.githubusercontent.com/msc-fariman69/SimpleChips/master/assets/input-chips.png" />
 
-Run `ng generate component component-name --project simple-chips` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project simple-chips`.
-> Note: Don't forget to add `--project simple-chips` or else it will be added to the default project in your `angular.json` file. 
-
-## Build
-
-Run `ng build simple-chips` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Publishing
-
-After building your library with `ng build simple-chips`, go to the dist folder `cd dist/simple-chips` and run `npm publish`.
-
-## Running unit tests
-
-Run `ng test simple-chips` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Select chips
+- You can choose between provided source items and add item to chips.
+- You have to specify display and value for provided source and the control gives you a ChipsItem array includes all selected items.
+- The duplicate item won't be added by the defined policy.
+- You can delete items by hovering and clicking on them.
+- You can connect the control with form control to be as a control in a form group with all form control features.
+<img src="https://raw.githubusercontent.com/msc-fariman69/SimpleChips/master/assets/select-chips.png" />
